@@ -13,4 +13,30 @@ class Comment {
         $this->task_id = $task_id;
     }
 
+    
+    public function getId() { 
+        return $this->id; 
+    }
+
+    public function getContent() { 
+        return $this->content; 
+    }
+    public function setContent($content) {
+        $this->content = $content; 
+    }
+
+    public function getUserId() {
+        return $this->user_id; 
+    }
+
+    public function getTaskId() { 
+        return $this->task_id; 
+    }
+    
+    public function getCreatedAt() { 
+        return $this->created_at; 
+    }
+
+    
+
 }
